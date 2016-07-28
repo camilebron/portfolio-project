@@ -1,0 +1,132 @@
+.container{
+  width: 1200px;
+  margin:auto;
+}
+
+body{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  font-family: 'Muli', sans-serif;
+}
+
+.logo{
+  margin-left: 3px;
+  margin-top: 0;
+  padding: 2px;
+}
+
+.header{
+  text-transform: uppercase;
+  color: #2d3c49;
+  flex-wrap: wrap;
+}
+
+.line-style {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #444, #ccc);
+  }
+.image-responsive {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #7d97ad;
+  max-width: 100%;
+
+}
+h1{
+  font-size: 28px;
+}
+
+.project-name{
+  text-align: center;
+}
+
+.description{
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+.social-media-icons{
+  text-align: right;
+}
+@media screen and (min-width: 350px) {
+        .container, .line-style{
+          width: 400px;
+                }
+        .description, .project-name, body, .line-style{
+          text-align: left;
+    }
+        h1{
+          font-size: 24px;
+        }
+        .project-name{
+          font-weight: bolder;
+          font-size: 20px;
+        }
+}
+@media screen and (min-width: 750px) {
+        .container, .line-style{
+          width: 750px;
+        }
+        .description, .project-name, body, .line-style{
+          text-align: left;
+          margin-left: auto;
+    }
+        h1{
+          font-size: 40px;
+        }
+        h2{
+          padding-left: 20px;
+          font-weight: bolder;
+          font-size: 36px;
+        }
+        h4{
+          font-size: 30px;
+        }
+        .description{
+          font-size: 28px;
+          padding-left: 3em;
+          margin-left: 20px;
+        }
+        .project-name{
+          font-weight: bolder;
+          font-size: 26px;
+          padding-left: 20px;
+        }
+        .responsive-images{
+          padding-left: 20px;
+        }
+}
+@media screen and (min-width: 1000px) {
+        .container, .line-style{
+          width: 1200px;
+        }
+        .description, .project-name, body, .line-style{
+          text-align: left;
+          margin-left: auto;
+    }
+        h1{
+          font-size: 32px;
+        }
+        h4{
+          font-size: 26px;
+        }
+        .description{
+          font-size: 24px;
+          text-align: center;
+          padding: 10px;
+        }
+        .project-name{
+          text-align: center;
+          padding: 3px;
+          font-weight: bolder;
+          font-size: 16px;
+        }
+        .responsive-images{
+          margin-right: 20px;
+        }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "my-portfolio",
+  "version": "0.0.1",
+  "description": "my portfolio FEND nanodegree project",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "grunt": "^1.0.1"
+  },
+  "devDependencies": {
+    "grunt-responsive-images": "^0.1.9"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "portfolio",
+    "Camille"
+  ],
+  "author": "Camille Lebron Brayfield",
+  "license": "ISC"
+}
